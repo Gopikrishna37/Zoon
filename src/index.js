@@ -3,16 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App.tsx';
 import reportWebVitals from './reportWebVitals.js';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import { StoreContextProvider } from './context/globalstorage.tsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<>
 		<StoreContextProvider>
-			<BrowserRouter basename="/zoon">
+			<HashRouter>
 				<App />
-			</BrowserRouter>
+			</HashRouter>
 		</StoreContextProvider>
 	</>
 );
