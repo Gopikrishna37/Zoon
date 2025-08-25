@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zoon/static/css/main.e6c13ad2.css",
-    "main.js": "/zoon/static/js/main.e6141eb7.js",
+    "main.js": "/zoon/static/js/main.aba58278.js",
     "static/js/787.899340a2.chunk.js": "/zoon/static/js/787.899340a2.chunk.js",
     "static/media/cart.svg": "/zoon/static/media/cart.49be5a4a7bf09c7554e79a133b6e82dd.svg",
     "static/media/delete.svg": "/zoon/static/media/delete.7242eb8af22e073a4e2c92cf9ca65024.svg",
@@ -15,11 +15,11 @@
     "static/media/sun.svg": "/zoon/static/media/sun.650556954060ece881248c100d876975.svg",
     "static/media/menu.svg": "/zoon/static/media/menu.3d6d4baec351993d5d8e27e1e8685185.svg",
     "main.e6c13ad2.css.map": "/zoon/static/css/main.e6c13ad2.css.map",
-    "main.e6141eb7.js.map": "/zoon/static/js/main.e6141eb7.js.map",
+    "main.aba58278.js.map": "/zoon/static/js/main.aba58278.js.map",
     "787.899340a2.chunk.js.map": "/zoon/static/js/787.899340a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.e6141eb7.js"
+    "static/js/main.aba58278.js"
   ]
 }
