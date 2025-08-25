@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<>
 		<StoreContextProvider>
-			<BrowserRouter>
+			<BrowserRouter basename="/zoon">
 				<App />
 			</BrowserRouter>
 		</StoreContextProvider>
