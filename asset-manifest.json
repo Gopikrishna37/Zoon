@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Gopikrishna37/Zoon/static/css/main.e6c13ad2.css",
-    "main.js": "/Gopikrishna37/Zoon/static/js/main.4d5c730f.js",
-    "static/js/787.899340a2.chunk.js": "/Gopikrishna37/Zoon/static/js/787.899340a2.chunk.js",
-    "static/media/cart.svg": "/Gopikrishna37/Zoon/static/media/cart.49be5a4a7bf09c7554e79a133b6e82dd.svg",
-    "static/media/delete.svg": "/Gopikrishna37/Zoon/static/media/delete.7242eb8af22e073a4e2c92cf9ca65024.svg",
-    "static/media/filter.svg": "/Gopikrishna37/Zoon/static/media/filter.2fb54b52425491b19e371e5324b41009.svg",
-    "static/media/moon.svg": "/Gopikrishna37/Zoon/static/media/moon.7f57ce0136ba76cf0c49979182b9d539.svg",
-    "static/media/logout.svg": "/Gopikrishna37/Zoon/static/media/logout.759b794f24535447d14335aafaee07df.svg",
-    "static/media/sort.svg": "/Gopikrishna37/Zoon/static/media/sort.7373da6c663bf550c197ac38aa83ca54.svg",
-    "static/media/cartplus.svg": "/Gopikrishna37/Zoon/static/media/cartplus.18b2521ab1a222c2572c6cb5ad02cf2f.svg",
-    "index.html": "/Gopikrishna37/Zoon/index.html",
-    "static/media/menuwhite.svg": "/Gopikrishna37/Zoon/static/media/menuwhite.0ed20e94cce4d8180557a92506765e7f.svg",
-    "static/media/sun.svg": "/Gopikrishna37/Zoon/static/media/sun.650556954060ece881248c100d876975.svg",
-    "static/media/menu.svg": "/Gopikrishna37/Zoon/static/media/menu.3d6d4baec351993d5d8e27e1e8685185.svg",
-    "main.e6c13ad2.css.map": "/Gopikrishna37/Zoon/static/css/main.e6c13ad2.css.map",
-    "main.4d5c730f.js.map": "/Gopikrishna37/Zoon/static/js/main.4d5c730f.js.map",
-    "787.899340a2.chunk.js.map": "/Gopikrishna37/Zoon/static/js/787.899340a2.chunk.js.map"
+    "main.css": "/Zoon/static/css/main.e6c13ad2.css",
+    "main.js": "/Zoon/static/js/main.3a4f91ee.js",
+    "static/js/787.899340a2.chunk.js": "/Zoon/static/js/787.899340a2.chunk.js",
+    "static/media/cart.svg": "/Zoon/static/media/cart.49be5a4a7bf09c7554e79a133b6e82dd.svg",
+    "static/media/delete.svg": "/Zoon/static/media/delete.7242eb8af22e073a4e2c92cf9ca65024.svg",
+    "static/media/filter.svg": "/Zoon/static/media/filter.2fb54b52425491b19e371e5324b41009.svg",
+    "static/media/moon.svg": "/Zoon/static/media/moon.7f57ce0136ba76cf0c49979182b9d539.svg",
+    "static/media/logout.svg": "/Zoon/static/media/logout.759b794f24535447d14335aafaee07df.svg",
+    "static/media/sort.svg": "/Zoon/static/media/sort.7373da6c663bf550c197ac38aa83ca54.svg",
+    "static/media/cartplus.svg": "/Zoon/static/media/cartplus.18b2521ab1a222c2572c6cb5ad02cf2f.svg",
+    "index.html": "/Zoon/index.html",
+    "static/media/menuwhite.svg": "/Zoon/static/media/menuwhite.0ed20e94cce4d8180557a92506765e7f.svg",
+    "static/media/sun.svg": "/Zoon/static/media/sun.650556954060ece881248c100d876975.svg",
+    "static/media/menu.svg": "/Zoon/static/media/menu.3d6d4baec351993d5d8e27e1e8685185.svg",
+    "main.e6c13ad2.css.map": "/Zoon/static/css/main.e6c13ad2.css.map",
+    "main.3a4f91ee.js.map": "/Zoon/static/js/main.3a4f91ee.js.map",
+    "787.899340a2.chunk.js.map": "/Zoon/static/js/787.899340a2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.4d5c730f.js"
+    "static/js/main.3a4f91ee.js"
   ]
 }
