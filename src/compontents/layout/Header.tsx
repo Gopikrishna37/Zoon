@@ -7,6 +7,7 @@ import cartIcon from "../../images/cart.svg";
 import menu from "../../images/menu.svg";
 import logoutIcon from "../../images/logout.svg";
 import menuwhite from "../../images/menuwhite.svg";
+import drakThemeIcon from "../../images/brightness-and-contrast.svg";
 import { NavLink, useNavigate } from 'react-router-dom';
 // const moon = require("../../images/moon.svg") as string;
 // const sun = require("../../images/sun.svg") as string;
@@ -45,9 +46,10 @@ const Header: React.FC<HeaderProps> = () => {
 				</NavLink>
 			</MenuWrapper>
 			<DarkThemeButton onClick={handleDarkTheme} data-testid={"darkicon"}>
-				{theme ? <img src={sun} alt='sun' /> : <img src={moon} alt='moon' width="30px" height="30px" />}
+				<img src={theme ? sun : drakThemeIcon} width="30px" height="30px" alt='sun' /> 
+				{/* {theme ? <img src={sun} width="30px" height="30px" alt='sun' /> : <img src={drakThemeIcon} alt='moon' width="20px" height="20px" />} */}
 			</DarkThemeButton>
-						<DarkThemeButton onClick={logout}><img src={logoutIcon} width="25px" height="25px" alt="logout" /></DarkThemeButton>
+						<DarkThemeButton onClick={logout}><img src={logoutIcon} width="20px" height="20px" alt="logout" /></DarkThemeButton>
 			<MenuIcon onClick={toggleMenu} data-testid={"menuicon"}><img src={theme ? menuwhite : menu} alt='menu' /></MenuIcon>
 		</HeaderWrapper>
 	);

@@ -25,7 +25,7 @@ function Layout() : React.ReactNode {
 				<Routes>
 					<Route path="/" element={<Login />}></Route>
 				</Routes>
-				{currentUser.active && <Header />}
+				{currentUser.active && (<><div style={{ position: 'fixed',width: '100%', top: '0px', zIndex: '1' }} ><Header /></div></> )}
 				<Routes>
 					<Route path="/home" element={<Home />}></Route>
 					<Route path="/products" element={<Products />}></Route>

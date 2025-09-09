@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
 
-import { HomePage } from "../../compontents/Styles.tsx";
 import { CustomizedTable } from "../../compontents/table/Table.tsx";
 import { CartContainer } from "../cart/Cart.styles.tsx";
 
@@ -75,9 +74,6 @@ function Cart(): React.ReactNode {
 
 	return (
 		<CartContainer>
-			<HomePage>
-				Cart..
-			</HomePage>
 			{customizedCart.length > 0 ? <CustomizedTable dataBody={customizedCart} dataHeader={customizedCart[0]} handleHeaderClick={[]} />
 				:
 				<div><h2>Your shopping cart is empty.</h2></div>

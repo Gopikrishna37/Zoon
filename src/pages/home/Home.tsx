@@ -26,7 +26,6 @@ function Home() {
 
 	return (
 		<HomePage>
-			Dashboard
 			<ChartContatiner >
 				<div>
 					<BarChart width={400} height={300} data={barData}>

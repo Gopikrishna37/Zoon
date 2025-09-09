@@ -4,7 +4,7 @@ import { FooterStyle } from "./Footer.styles.tsx";
 function Footer(): React.ReactNode {  // ReactElement<{}>
 	return (
 		<FooterStyle>
-			<p>@Project - 2024</p>
+			<p>@Project - 2025</p>
 		</FooterStyle>
 	);
 }

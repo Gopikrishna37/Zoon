@@ -7,11 +7,11 @@ export const HeaderWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   background-color: ${(props) => props.theme.header};
-  padding: 5px 10px;
-  border-bottom: 1px solid white;
+  padding: 0px 10px;
+  border-bottom: 1px solid black;
 `;
 
-export const CompanyHeading = styled.h1`
+export const CompanyHeading = styled.h2`
   margin: 0;
   color: ${(props) => props.theme.text};
 `;
@@ -42,7 +42,7 @@ export const MenuWrapper = styled.div<MenuWrapperProps>`
     display: ${(props) => (props.showMenu ? 'block' : 'none')};
     position: absolute;
     left: 0px;
-    top: 60px;
+    top: 34px;
     background-color: ${(props) => props.theme.header};
     width: 100%;
     align-items: flex-start;
@@ -67,8 +67,8 @@ export const MenuWrapperMobile = styled(MenuWrapper)`
 export const MenuLink = styled.div<React.DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>, ThemeProps>`
   color: ${(props) => props.theme.text};
   text-decoration: none;
-  padding: 12px;
-  font-size: 18px;
+  padding: 0px 15px;
+  font-size: 1rem;
   line-height: 25px;
   border-radius: 4px;
   background-color: ${(props) => props.theme.header};
@@ -129,23 +129,20 @@ export const MenuLinkCart = styled.div<React.DetailedHTMLProps<HTMLAttributes<HT
 `;
 
 export const MenuLinkName = styled.div<React.DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>, ThemeProps>`
-  color: ${(props) => props.theme.text};
+ color: ${(props) => props.theme.text};
   text-decoration: none;
-  padding: 12px;
-  font-size: 18px;
+  padding: 0px 15px;
+  font-size: 1rem;
   line-height: 25px;
   border-radius: 4px;
   display: none;
+  background-color: ${(props) => props.theme.header};
   &:hover {
     background-color: #ddd;
   }
 
-  a{
-    text-decoration: none;
-    color: ${(props) => props.theme.text};
-  }
-
   @media screen and (max-width: 600px) {
+      background-color: ${(props) => props.theme.header};
     display: block; // Show icons only in mobile view
   }
 
@@ -166,4 +163,6 @@ export const DarkThemeButton = styled.div`
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  backgroundcolor: white;
+  padding: 0px 10px
 `;

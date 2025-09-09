@@ -15,6 +15,9 @@ export const FooterStyle = styled.div<React.DetailedHTMLProps<HTMLAttributes<HTM
   width: 100%;
   color: ${(props) => props.theme.text};
   text-align: center;
-  height: 7%;
+  height: 5%;
   border-top: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `;

@@ -43,6 +43,10 @@ export const GlobalStyle = createGlobalStyle`
     @media (min-width: 1024px) {
       font-size: ${px2vw(16)};
     }
+
+        @media (max-width: 460px) {
+      font-size: ${px2vw(24)};
+    }
   }
 `;
 
